@@ -18,7 +18,8 @@
   .container>div{
         width: 100px;
         height: 100px;
-        border: 1px solid black;
+        border: 1px solid white;
+        /* border-right:1px solid white ; */
         display: flex;
         justify-content: center;
         align-items: center;
