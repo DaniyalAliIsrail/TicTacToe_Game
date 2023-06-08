@@ -1,0 +1,42 @@
+  *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+  }
+  html{
+        font-family: 'Roboto', sans-serif;
+        /* font-size: 1.8rem; */
+        background: rgb(1, 68, 145);
+  }
+.container{
+        display: grid;
+        grid-template-columns: repeat(3,100px);
+        border-radius:10px ;
+        background: royalblue
+  }
+
+  .container>div{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8rem;
+  }
+  .container>div:hover{
+        background: rgb(160, 202, 241);
+        transition: all 0.1s ease;
+  }
+  .main-heading{
+        text-align: center;
+        padding: 20px;
+        font-size: 1rem;
+        font-size: 1.8rem;
+  }
+  .main-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+  }
